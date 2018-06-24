@@ -1,2 +1,1 @@
-# nhcmcheckdb
-testdb
+# nh-yg-checkdb
