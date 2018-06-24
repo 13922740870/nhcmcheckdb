@@ -30,8 +30,8 @@ from django.conf.global_settings import *  # noqa
 # 应用基本信息配置 (请按照说明修改)
 # ==============================================================================
 # 在蓝鲸智云开发者中心 -> 点击应用ID -> 基本信息 中获取 APP_ID 和 APP_TOKEN 的值
-APP_ID = 'nh-yg-checkdb'
-APP_TOKEN = '46ac8f56-df76-4c70-b1ad-21c84ada3b8d'
+APP_ID = 'nhcmcheckdb'
+APP_TOKEN = '2c06cb6e-0e98-40b9-8dd9-ea25335d7f8d'
 # 蓝鲸智云开发者中心的域名，形如：http://paas.bking.com
 BK_PAAS_HOST = 'http://paas.nianhuatech.com:7001'
 
@@ -119,6 +119,7 @@ INSTALLED_APPS = (
     'app_control',
     'account',
     'home_application',
+    'nhcmcheckdb',
 )
 
 # ==============================================================================
